@@ -1,6 +1,7 @@
 import "~/styles/globals.css";
 
 import { Open_Sans } from "next/font/google";
+import Providers from "./providers";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -22,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${openSans.variable} flex h-full flex-col`}>
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

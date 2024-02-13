@@ -4,7 +4,9 @@
  */
 await import("./src/env.js");
 
+import { withPlausibleProxy } from "next-plausible";
+
 /** @type {import("next").NextConfig} */
 const config = {};
 
-export default config;
+export default withPlausibleProxy()(config);
