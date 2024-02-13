@@ -4,6 +4,8 @@
 
 body {
   @apply bg-black text-white;
+
+  min-height: 100lvh;
 }
 
 .page-header {

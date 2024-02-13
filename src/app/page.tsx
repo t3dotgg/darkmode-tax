@@ -8,7 +8,7 @@ export default function HomePage() {
           security requirement.
         </h2>
       </header>
-      <main className="flex flex-col items-center justify-center pt-8 text-xl text-white">
+      <main className="flex h-full flex-grow flex-col items-center justify-between pt-8 text-xl text-white">
         <span>
           It&apos;s literally just{" "}
           <a
@@ -17,6 +17,16 @@ export default function HomePage() {
           >
             UploadThing
           </a>
+        </span>
+        <span className="p-8 text-sm">
+          (btw, dark mode is{" "}
+          <a
+            href="https://medium.com/@h_locke/why-dark-mode-causes-more-accessibility-issues-than-it-solves-d2f8359bb46a"
+            className="text-blue-300 hover:text-blue-400 hover:underline"
+          >
+            not an accessibility feature
+          </a>
+          )
         </span>
       </main>
     </>

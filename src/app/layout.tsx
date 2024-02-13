@@ -21,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${openSans.variable}`}>{children}</body>
+      <body className={`font-sans ${openSans.variable} flex h-full flex-col`}>
+        {children}
+      </body>
     </html>
   );
 }
