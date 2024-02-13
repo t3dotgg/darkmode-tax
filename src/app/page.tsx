@@ -21,7 +21,7 @@ export default function HomePage() {
         <span className="p-8 text-sm">
           (btw, dark mode is{" "}
           <a
-            href="https://medium.com/@h_locke/why-dark-mode-causes-more-accessibility-issues-than-it-solves-d2f8359bb46a"
+            href="https://www.boia.org/blog/offering-a-dark-mode-doesnt-satisfy-wcag-color-contrast-requirements"
             className="text-blue-300 hover:text-blue-400 hover:underline"
           >
             not an accessibility feature
