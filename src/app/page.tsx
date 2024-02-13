@@ -12,7 +12,7 @@ export default function HomePage() {
       </header>
       <main className="flex flex-col items-center justify-center pt-8 text-xl text-white">
         <span>
-          It's literally just{" "}
+          It&apos;s literally just{" "}
           <a
             href="https://uploadthing.com"
             className="text-blue-300 hover:text-blue-400 hover:underline"
